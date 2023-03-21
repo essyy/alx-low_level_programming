@@ -1,1 +1,1 @@
-Functions for c program
+functions for c program
