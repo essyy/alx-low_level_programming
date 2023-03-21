@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  * main - Function that prints printchar
- *
+ * Description: 'prints _putchar to stdout'
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -17,5 +16,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-
 }
