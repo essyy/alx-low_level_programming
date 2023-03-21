@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE.c -o $CFILE.s
+CFILE=0-main; gcc -S -masm=intel "${CFILE}.c" -o "${CFILE}.s" && ./100-intel "${CFILE}.s"
+
