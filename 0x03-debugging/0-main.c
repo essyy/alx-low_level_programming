@@ -5,6 +5,7 @@
  *
  * @i: the int used for the function
  */
+
 int main(void)
 {
 	int i;
