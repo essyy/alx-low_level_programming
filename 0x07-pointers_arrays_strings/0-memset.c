@@ -2,17 +2,18 @@
 
 /**
  * _memset - fills memory with a constant byte
- * @s - pointer to the memoty area
- * @b - constant byte
- * @n - the first bytes of the memort area
+ * @s: pointer to the memoty area
+ * @b: constant byte
+ * @n: the first bytes of the memort area
  *
- * Return : changed array with new value for n bytes
+ * Return: changed array with new value for n bytes
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
-	for (; n>0; i++)
+
+	for (; n > 0; i++)
 	{
 		s[i] = b;
 		n--;
